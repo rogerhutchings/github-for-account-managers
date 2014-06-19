@@ -1,2 +1,2 @@
-github-for-account-managers
+GitHub for Account Managers
 ===========================
