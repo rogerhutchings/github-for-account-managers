@@ -21,7 +21,7 @@ Table of Contents
     - Repo naming convention
     - Standard milestones / issues for every project
 
-4. Getting something changed
+5. Getting something changed
     - Issues
         - Why?
         - What makes a good issue?
@@ -32,7 +32,7 @@ Table of Contents
         - Comment formatting basics (markdown etc - optional)
         - Reopening
 
-- Meeting a deadline
+6. Meeting a deadline
     - Milestones
         - Why
         - How to add issues to milestones
@@ -40,4 +40,4 @@ Table of Contents
         - Why
         - Useful labels
 
-- Conclusion
+7. Conclusion
