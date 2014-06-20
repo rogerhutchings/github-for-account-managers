@@ -1,9 +1,12 @@
 GitHub for Account Managers
 ===========================
 
-- Intro (what is Github and why do we use it?)
+Table of Contents
+-----------------
 
-- Version Control overview (optional)
+1. Intro (what is GitHub and why do we use it?)
+
+2. Version Control overview (optional)
     - Why?
     - Repositories
     - Commits
@@ -11,17 +14,23 @@ GitHub for Account Managers
     - Merging
     - Pull requests
 
-- Navigating the interface (quick reference)
+3. Navigating the interface (quick reference)
     - The GitHub Notifier
 
-- Getting something changed
+4. Creating a project
+    - Repo naming convention
+    - Standard milestones / issues for every project
+
+4. Getting something changed
     - Issues
         - Why?
         - What makes a good issue?
+            - Title format
             - Detail
             - Reproducibility
         - How devs use and comment on issues
         - Comment formatting basics (markdown etc - optional)
+        - Reopening
 
 - Meeting a deadline
     - Milestones
@@ -30,3 +39,5 @@ GitHub for Account Managers
     - Labels
         - Why
         - Useful labels
+
+- Conclusion
