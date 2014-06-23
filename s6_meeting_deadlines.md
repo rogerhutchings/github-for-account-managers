@@ -12,7 +12,9 @@ In GitHub terms, a milestone is a container for issues, with a due date attached
 
 > An issue without a milestone has no urgency. If you need an issue closed by a certain date, __it has to be part of a milestone__.
 
+
 ---
+
 
 ## Creating and managing milestones
 
