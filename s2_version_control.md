@@ -69,4 +69,22 @@ Later, when Alice and Bob have completed their respective labours, they can turn
 
 ## Pull requests
 
+A *pull request* is a group of commits, on a branch, that are intended to be reviewed and combined into `master`. Pull requests are usually either made from or linked to issues; GitHub, at time of writing, has a functionality that allows a developer to combine a branch and an issue into a full pull request, displaying both the issue discussion and the commits made to address it in one place.
+
+Here's an example of a pull request:
+
+`![todo: image]()`
+
+Here, the code can be seen and reviewed by everyone. Typically, by this stage, your role in management and providing information is complete; comments will largely come from other developers, suggesting improvements to the code. The developer who submitted the pull request can continue to make commits to the branch the pull request is built on, and GitHub will update to display these changes on the pull request page. Once everyone is happy, one of the developers will *merge* the changes into `master`, and the pull request is closed and archived.
+
 ## Merging
+
+There's not much point to branching if the changes made to a branch can't be combined back into the main code at some point later, and this combination process is called *merging*. All of the commits performed to a branch since it diverged from its parent (normally `master`) are applied to that parent, in order.
+
+The new commits are merged in on top of any other commits that have been applied to the parent since the branch was split off. This often happens, because multiple developers will be working on a project at the same time. (Occasionally, two developers will make changes to the same file which happen to clash with one another; when one edit is merged on top of the other, someone will have to resolve the conflict manually.)
+
+When Alice - one of our example developers from earlier - finishes her work, once the pull request has been reviewed, someone will hit the giant `Merge pull request` button. When this happens, Git takes all of the commits on Alice's `fix-the-broken-button` branch, and applies them to `master`. The same thing will happen when Bob's pull request is merged. Even if Alice's code has been merged first, Git will still allow Bob to merge his code too. If the two clash, GitHub will grey out the `Merge pull request` button, and Bob will have to manually take the commits from `master` and apply them to his branch, fixing any conflicts along the way. The merge button then reactivates and Bob's code is applied.
+
+## Wrapping up
+
+Using version control, any number of developers can work on the same project at the same time, usually painlessly. Any changes that a developer wants to submit to `master` will be displayed as a pull request on GitHub before being merged into the core code, allowing space for review, and giving you an opportunity to track the team's progress. Issues can be opened and discussed to request bug fixes or new functionality, and developers can allocate their work based around those, meaning the team has good direction and a useful feedback mechanism for everybody. Magic!
