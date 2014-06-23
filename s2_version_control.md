@@ -37,6 +37,22 @@ Because each repository represents a single project, an individual developer wil
 
 ## Commits
 
+Having a repository of code isn't much use if it can't be modified, so version control systems have a mechanism for submitting changes, called *commits*. (The word 'commit' is used both as a verb and a noun.)
+
+A commit is a set of changes to files that's meant to represent an "atomic" change to the project - that is, the minimum amount of modification necessary to introduce or fix functionality without causing errors or making tests fail. In practice, commits don't always follow this definition exactly, but they're small, and from the perspective of Git and GitHub, are essentially the minimum unit of work. (An issue will require one or more commits to resolve, for instance.)
+
+Each commit has a short message summarising the changes it makes in a quickly-readable way. It also has a page to itself on GitHub, showing the changes it makes to the files in the project, which looks like this:
+
+`![todo: image]()`
+
+The lines highlighted in red are being removed, and those highlighted in green are being added. Normally, a commit is submitted separate from the master version of the code, and won't be applied to the master version until it's been reviewed by other developers. (Despite the name, a commit isn't considered to be particularly binding until it's been deemed correct, and developers make commits freely.)
+
+Commits will show up in issues that they're linked to:
+
+`![todo: image]()`
+
+You can see that the commits are listed separately from each other, and come in a particular order. Reading the list of commits and their descriptions allows you to keep up with changes to the code as they're made, and track progress on an issue.
+
 ## Master and branches
 
 ## Merging
