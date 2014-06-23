@@ -1,26 +1,52 @@
-# Meeting a Deadline
+< Previous section: [Getting things changed](https://github.com/rogerhutchings/github-for-account-managers/blob/markdown/s5_getting_changes.md)
 
-Once we've created our issues we have a couple of ways to refine the content when working on projects. This can be of benefit to both you and the developer(s) working on the project as it allows you to see a concise overview of a specific 'milestone' or 'label' (we'll review this both separately later). By doing this you can improve your own workflow and the workflow of the developer(s) working on the project with you.
+---
 
-These systems can both be added, removed and altered without affecting the original content.
+# 6. Meeting a Deadline
+
+In the last section, we looked at how to identify a problem &ndash; like a bug, or a client-requested change &ndash; and describe it to a developer so they can fix it. 
+
+But like the proverbial buses, issues rarely come alone. Fortunately, we also have a couple of ways to group them, using __milestones__ and __labels__. These groupings can be added, removed and edited without affecting the original issues.
+
+This section is all about hitting deadlines, so we'll look at milestones here, and labels in the next section.
+
+---
 
 ## Milestones
 
-Milestones are pretty much what it says on the tin. They're a way to set a goal/target to keep all members of the repository on the same timeline. Every account manager and developer has varying ways of using them but I'm going to outline the way in which I find the to be best used.
+Milestones keep contributors to a repository working on the same timeline. 
 
-The first is setting overarching goals. We do this because it allows us to have specific milestones to hit at each phase of a projects development. An example would be based on a project with a timeline delivery date of 14th July. This date will be set as a milestone labled 'Final Deadline' in this instance.
-(insert screenshot)
+In GitHub terms, a milestone is a container for issues, with a due date attached to it. Issues are assigned to a milestone, and as they are closed, the milestone's progress moves toward 100%. When the milestone hits 100%, it can be closed. And that's as complicated as it gets.
 
-We can also use milestones to create separated 'mini' goals such as the development of an Android build of the app that has a different due date but uses the same API or framework.
-(insert screenshot)
+Depending on the project, milestones can correspond to different goals. Those might be major project phases, for example; equally, they can be used for smaller goals, like features or different platform builds using the same codebase.
 
-When we need to be more precise about situations or specifics related to individual issues we can refer to 'labels'.
+What milestones should all have in common, however, is a due date.
 
-## Labels
+> An issue without a milestone has no urgency. If you need an issue closed by a certain date, __it has to be part of a milestone__.
 
-Using labels allow us to be more specific about the issue we've created and create an 'at a glance' overview. An example would be if we are expecting artwork from a creative agency. Seeing as we are expecting it, there is no harm in adding an issue into GitHub while it's all fresh in your mind but in this case we aren't able to supply the actual artwork. 
+### Creating a new milestone
 
-In order to make this clear to the development team, all we would need to do is add a label that says 'awaiting agency' or something to that effect. If there isn't already a label then you can create your own easily but try to restrict yourself to just using them when it's necessary. Not everthing needs a label!
-(insert screenshots)
+1. On the issues screen, click the `Milestones` tab at the top left of the pane.
+2. If you have no open milestones, you can create on by clicking the link in the middle. Otherwise, click the `Create a new milestone` button on the left.
+    ![](https://raw.githubusercontent.com/rogerhutchings/github-for-account-managers/section-6/images/s6_1.png)
+3. Add in a name and description, __and a due date__, and click `Create milestone`!
+    ![](https://raw.githubusercontent.com/rogerhutchings/github-for-account-managers/section-6/images/s6_2.png)
 
-As you can see, these are both simple and effective tools for ensuring that both the account manager and the developer(s) involved understand what goals are in place and the specifics of each issue at a glance.With these tools in place we can all work faster and more efficiently on each project.
+---
+
+### Adding an issue to a milestone
+
+1. Back in the issue list, check an issue, and click on the `Milestone` drop-down above the issue list.
+    ![](https://raw.githubusercontent.com/rogerhutchings/github-for-account-managers/section-6/images/s6_3.png)
+2. And that's it! You can also add an issue to a milestone from the issue's own page, by clicking on the `Milestone` section of the right-hand bar.
+
+### Viewing the issues in a milestone
+
+You can filter out issues that aren't in your milestone.
+
+1. In the issues list, click on the gear drop-down in the `Milestone` area in the left-hand bar, and choose your milestone.
+    ![](https://raw.githubusercontent.com/rogerhutchings/github-for-account-managers/section-6/images/s6_4.png)
+
+---
+
+Next section: [Labelling issues](https://github.com/rogerhutchings/github-for-account-managers/blob/markdown/s7_labelling_issues.md) >
