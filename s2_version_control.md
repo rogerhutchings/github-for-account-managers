@@ -25,6 +25,16 @@ Without version control, coordinating the team's efforts would become very diffi
 
 ## Repositories
 
+The central store of code is organised around *repositories*, each of which houses everything needed for a self-contained project. A repository contains the main version of the project code (usually referred to as *master*), any number of alternate versions being worked on (called *branches*), and lots of historical information. It will have a page on GitHub; from that page, you can view and download the code, submit issues, manage people assigned to the project, and more.
+
+For instance, here's an example of a repository home page:
+
+`![todo: image]()`
+
+The central box displays the code in the repository as a list of files and folders, and a variety of links and buttons around it navigate you to the various tasks you might want to perform. The lists of files and branches will update as developers submit modifications via Git, and you can refresh the page to see the changes.
+
+Because each repository represents a single project, an individual developer will rarely need to work on multiple repositories together; typically, one repository contains everything for, say, a particular site's front-end or a complete back-end API (which may or may not be used by multiple sites).
+
 ## Commits
 
 ## Master and branches
