@@ -1,3 +1,7 @@
+< Previous section: (Getting things changed)[https://github.com/rogerhutchings/github-for-account-managers/blob/markdown/s5_getting_changes.md]
+
+---
+
 # Section 6 - Meeting a client deadline
 
 In the last section, we looked at how to identify a problem &ndash; like a bug, or a client-requested change &ndash; and describe it to a developer so they can fix it.
@@ -34,6 +38,10 @@ You can filter out issues that aren't in your milestone.
 
 1. In the issues list, click on the gear drop-down in the `Milestone` area in the left-hand bar, and choose your milestone.
     ![](https://raw.githubusercontent.com/rogerhutchings/github-for-account-managers/section-6/images/s6_4.png)
+
+---
+
+Next section: (Conclusion)[https://github.com/rogerhutchings/github-for-account-managers/blob/markdown/s7_conclusion.md] >
 
 ---
 
