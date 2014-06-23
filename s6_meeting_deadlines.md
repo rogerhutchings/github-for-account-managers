@@ -8,7 +8,7 @@ In the last section, we looked at how to identify a problem &ndash; like a bug, 
 
 But like the proverbial buses, issues rarely come alone. Fortunately, we also have a couple of ways to group them, using __milestones__ and __labels__. These groupings can be added, removed and edited without affecting the original issues.
 
-This section is all about hitting deadlines, so we'll look at milestones here, and labels in the next section.
+This section is all about hitting deadlines, so we'll look at milestones here, and labels [in the next section.](https://github.com/rogerhutchings/github-for-account-managers/blob/markdown/s7_labelling_issues.md)
 
 ---
 
@@ -46,6 +46,10 @@ You can filter out issues that aren't in your milestone.
 
 1. In the issues list, click on the gear drop-down in the `Milestone` area in the left-hand bar, and choose your milestone.
     ![](https://raw.githubusercontent.com/rogerhutchings/github-for-account-managers/section-6/images/s6_4.png)
+
+---
+
+We've looked at using milestones to help developers hit client deadlines, but what if we want to group issues by type, rather than date? GitHub's got you covered there too, using __labels__.
 
 ---
 
