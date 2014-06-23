@@ -1,4 +1,4 @@
-# Meeting a client deadline
+# Section 6 - Meeting a client deadline
 
 In the last section, we looked at how to identify a problem &ndash; like a bug, or a client-requested change &ndash; and describe it to a developer so they can fix it.
 
