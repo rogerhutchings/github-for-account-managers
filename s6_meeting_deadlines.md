@@ -1,4 +1,4 @@
-< Previous section: (Getting things changed)[https://github.com/rogerhutchings/github-for-account-managers/blob/markdown/s5_getting_changes.md]
+< Previous section: [Getting things changed](https://github.com/rogerhutchings/github-for-account-managers/blob/markdown/s5_getting_changes.md)
 
 ---
 
@@ -41,7 +41,7 @@ You can filter out issues that aren't in your milestone.
 
 ---
 
-Next section: (Conclusion)[https://github.com/rogerhutchings/github-for-account-managers/blob/markdown/s7_conclusion.md] >
+Next section: [Conclusion](https://github.com/rogerhutchings/github-for-account-managers/blob/markdown/s7_conclusion.md) >
 
 ---
 
