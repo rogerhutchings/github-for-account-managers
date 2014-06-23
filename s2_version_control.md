@@ -55,6 +55,18 @@ You can see that the commits are listed separately from each other, and come in 
 
 ## Master and branches
 
-## Merging
+We've touched on the idea of *master* and *branches* already, but they deserve proper explanation.
+
+The central, definitive version of the code in a repository is called *`master`*. It is sacred, and must not be sullied; anything committed to `master` must be done so only with care and the approval of other developers. Git allows developers a lot of flexibility in making changes, experimenting, and fixing mistakes, so to compensate for the chaos that can bring, `master` is kept as clean and consistent as possible. When a developer downloads code for working on, he or she downloads it from `master`; when we deploy a product, we do it with the code in `master`.
+
+For individual work, developers will make *branches*. Branches are so-called because they look like the branches of a tree; a branch is created from a certain point in the history of `master` (or another branch), and diverges from there.
+
+For instance, let's say we have a developer called Alice. Alice needs to fix a bug where a certain button doesn't display properly. She creates a branch, calls it `fix-the-broken-button`, sets her computer to work on that branch, and starts programming. Any commits she makes will go to that branch, leaving the holy `master` untouched by unreviewed changes.
+
+At the same time as Alice starts working on the broken button, Bob is assigned to add some new text and graphics to the header of the page the button is on. He creates a branch, calls it `improve-page-header`, sets his computer to work on that branch, and starts programming.  Any commits he makes will go to that branch, separate from both `master` and Alice's work. The two developers can code entirely independently, even if they're working on the same page.
+
+Later, when Alice and Bob have completed their respective labours, they can turn their branches into...
 
 ## Pull requests
+
+## Merging
