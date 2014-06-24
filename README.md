@@ -5,7 +5,7 @@ By [rogerhutchings](https://github.com/rogerhutchings), [adam-incuna](https://gi
 
 Thanks to [Incuna](https://github.com/incuna) for giving us the time to work on this project.
 
-## What is this?
+## About this guide
 
 If you're an account manager working at a software agency, you'll have heard of GitHub. Of course you have, you're reading this. Chances are that at some point, you've also caught some flak from your development team for using GitHub wrongly. _And that's okay._
 
