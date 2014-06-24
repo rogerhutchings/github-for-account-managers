@@ -4,7 +4,7 @@ GitHub has a fair number of buttons on it, and this section is a quick reference
 
 This is the home page of our example repository:
 
-![https://github.com/rogerhutchings/github-for-account-managers/blob/i6-write-section-3/images/s3_01.png]()
+![https://github.com/rogerhutchings/github-for-account-managers/blob/i6-write-section-3/images/s3_01.png](https://github.com/rogerhutchings/github-for-account-managers/blob/i6-write-section-3/images/s3_01.png)
 
 The page breaks down into five main areas:
 
@@ -18,6 +18,6 @@ The page breaks down into five main areas:
 
 [The GitHub Notifier](https://github.com/sindresorhus/GitHub-Notifier) is a great browser plugin that causes an icon to show up on the toolbar in your browser, displaying how many unread GitHub notifications you currently have. Clicking it takes you to the GitHub notification page.
 
-![https://github.com/rogerhutchings/github-for-account-managers/blob/i6-write-section-3/images/s3_02.png]()
+![https://github.com/rogerhutchings/github-for-account-managers/blob/i6-write-section-3/images/s3_02.png](https://github.com/rogerhutchings/github-for-account-managers/blob/i6-write-section-3/images/s3_01.png)
 
 The Notifier is an extremely handy tool, and lets you easily keep on top of incoming notifications, keeping you in touch with your teammates. To install it, click on the link appropriate to your browser on the page linked above, and follow the instructions there.
