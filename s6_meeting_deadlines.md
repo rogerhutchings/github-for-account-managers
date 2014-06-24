@@ -20,14 +20,14 @@ In GitHub terms, a milestone is a container for issues, with a due date attached
 
 Depending on the project, milestones can correspond to different goals. Those might be major project phases, for example; equally, they can be used for smaller goals, like features or different platform builds using the same codebase.
 
-What milestones should all have in common, however, is a due date.
+What milestones should all have in common, however, is a due date. 
 
-> An issue without a milestone has no urgency. If you need an issue closed by a certain date, __it has to be part of a milestone__.
+__An issue without a milestone has no urgency. If you need an issue closed by a certain date, it has to be part of a milestone.__
 
 ### Creating a new milestone
 
 1. On the issues screen, click the `Milestones` tab at the top left of the pane.
-2. If you have no open milestones, you can create on by clicking the link in the middle. Otherwise, click the `Create a new milestone` button on the left.
+2. If you have no open milestones, you can create one by clicking the link in the middle. Otherwise, click the `Create a new milestone` button on the left.
     ![](https://raw.githubusercontent.com/rogerhutchings/github-for-account-managers/section-6/images/s6_1.png)
 3. Add in a name and description, __and a due date__, and click `Create milestone`!
     ![](https://raw.githubusercontent.com/rogerhutchings/github-for-account-managers/section-6/images/s6_2.png)
