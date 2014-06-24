@@ -20,4 +20,4 @@ The page breaks down into five main areas:
 
 ![](https://raw.githubusercontent.com/rogerhutchings/github-for-account-managers/i6-write-section-3/images/s3_02.png)
 
-The Notifier is an extremely handy tool, and lets you easily keep on top of incoming notifications, keeping you in touch with your teammates. To install it, click on the link appropriate to your browser on the page linked above, and follow the instructions there.
+The Notifier is an extremely handy tool, and lets you easily keep on top of incoming notifications, keeping you in touch with your teammates. To install it, click on the link appropriate to your browser [on its GitHub readme](https://github.com/sindresorhus/github-notifier/blob/master/readme.md), and follow the instructions there.
