@@ -25,19 +25,13 @@ Without version control, coordinating the team's efforts would become very diffi
 
 ## Repositories
 
-The central store of code is organised around *repositories*, each of which houses everything needed for a self-contained project. A repository contains the main version of the project code (usually referred to as *master*), any number of alternate versions being worked on (called *branches*), and lots of historical information. It will have a page on GitHub; from that page, you can view and download the code, submit issues, manage people assigned to the project, and more.
-
-For instance, here's an example of a repository home page:
-
-`![todo: image]()`
-
-The central box displays the code in the repository as a list of files and folders, and a variety of links and buttons around it navigate you to the various tasks you might want to perform. The lists of files and branches will update as developers submit modifications via Git, and you can refresh the page to see the changes.
+Code is stored in *repositories*, each of which houses everything needed for a self-contained project. A repository contains the main version of the project code (usually referred to as *master*), any number of alternate versions being worked on (called *branches*), and lots of historical information. It will have a page on GitHub; from that page, you can view and download the code, submit issues, manage people assigned to the project, and more.
 
 Because each repository represents a single project, an individual developer will rarely need to work on multiple repositories together; typically, one repository contains everything for, say, a particular site's front-end or a complete back-end API (which may or may not be used by multiple sites).
 
 ## Commits
 
-Having a repository of code isn't much use if it can't be modified, so version control systems have a mechanism for submitting changes, called *commits*. (The word 'commit' is used both as a verb and a noun.)
+Having a repository of code isn't much use if it can't be modified, so version control systems have a mechanism for submitting changes, called *commits*. The word 'commit' is used both as a verb and a noun.
 
 A commit is a set of changes to files that's meant to represent an "atomic" change to the project - that is, the minimum amount of modification necessary to introduce or fix functionality without causing errors or making tests fail. In practice, commits don't always follow this definition exactly, but they're small, and from the perspective of Git and GitHub, are essentially the minimum unit of work. (An issue will require one or more commits to resolve, for instance.)
 
@@ -81,7 +75,7 @@ Here, the code can be seen and reviewed by everyone. Typically, by this stage, y
 
 There's not much point to branching if the changes made to a branch can't be combined back into the main code at some point later, and this combination process is called *merging*. All of the commits performed to a branch since it diverged from its parent (normally `master`) are applied to that parent, in order.
 
-The new commits are merged in on top of any other commits that have been applied to the parent since the branch was split off. This often happens, because multiple developers will be working on a project at the same time. (Occasionally, two developers will make changes to the same file which happen to clash with one another; when one edit is merged on top of the other, someone will have to resolve the conflict manually.)
+The new commits are merged in on top of any other commits that have been applied to the parent since the branch was split off. This often happens, because multiple developers will be working on a project at the same time. Occasionally, two developers will make changes to the same file which happen to clash with one another; when one edit is merged on top of the other, someone will have to resolve the conflict manually.
 
 When Alice - one of our example developers from earlier - finishes her work, once the pull request has been reviewed, someone will hit the giant `Merge pull request` button. When this happens, Git takes all of the commits on Alice's `fix-the-broken-button` branch, and applies them to `master`. The same thing will happen when Bob's pull request is merged. Even if Alice's code has been merged first, Git will still allow Bob to merge his code too. If the two clash, GitHub will grey out the `Merge pull request` button, and Bob will have to manually take the commits from `master` and apply them to his branch, fixing any conflicts along the way. The merge button then reactivates and Bob's code is applied.
 
