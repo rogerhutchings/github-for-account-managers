@@ -15,7 +15,7 @@ If you have any comments or suggestions, [create an issue](https://github.com/ro
 
 ## Table of Contents
 
-1. [Introduction](s1_introduction.md)
+1. [Introduction](s1_intro.md)
 2. [Basic concepts in version control](s2_version_control.md)
 3. [The GitHub Interface](s3_interface.md)
 4. [Creating a project](s4_creating_projects.md)
