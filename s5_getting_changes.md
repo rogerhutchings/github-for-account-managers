@@ -4,10 +4,22 @@
 
 # 5. Getting changes made
 
+
+
 ## What makes a good issue?
 
-* __Reproducibility__
-    A dev needs to be able to observe a problem in order to troubleshoot it. If you have a problem that comes and goes, try and spend sometime to isolate how it's being caused.
+- __A good title__
+    An issue title should be long enough that the issue can be understood without having to read the description. If you can include where in the project the issue lies, even better. For example:
+    > Home page - News widget title missing icon
+
+- __Reproducibility__
+    A dev needs to be able to observe a problem in order to troubleshoot it. If you have a problem that comes and goes, spend some time to isolate the cause - transient bugs are incredibly difficult to fix.
+    > Bad: Top navigation breaks sometimes
+    > Good: Top navigation breaks when side navigation is already open
+
+## When to reopen an issue
+
+
 
     
 
