@@ -10,8 +10,6 @@ But like the proverbial buses, issues rarely come alone. Fortunately, we also ha
 
 This section is all about hitting deadlines, so we'll look at milestones here, and labels [in the next section.](https://github.com/rogerhutchings/github-for-account-managers/blob/markdown/s7_labelling_issues.md)
 
----
-
 ## Milestones
 
 Milestones keep contributors to a repository working on the same timeline. 
@@ -39,6 +37,8 @@ __An issue without a milestone has no urgency. If you need an issue closed by a 
 1. Back in the issue list, check an issue, and click on the `Milestone` drop-down above the issue list.
     ![](https://raw.githubusercontent.com/rogerhutchings/github-for-account-managers/section-6/images/s6_3.png)
 2. And that's it! You can also add an issue to a milestone from the issue's own page, by clicking on the `Milestone` section of the right-hand bar.
+
+---
 
 ### Viewing the issues in a milestone
 
