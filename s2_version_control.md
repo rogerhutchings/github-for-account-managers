@@ -37,13 +37,13 @@ A commit is a set of changes to files that's meant to represent an "atomic" chan
 
 Each commit has a short message summarising the changes it makes in a quickly-readable way. It also has a page to itself on GitHub, showing the changes it makes to the files in the project, which looks like this:
 
-`![todo: image]()`
+![](images/s2_01.png)
 
 The lines highlighted in red are being removed, and those highlighted in green are being added. Normally, a commit is submitted separate from the master version of the code, and won't be applied to the master version until it's been reviewed by other developers. (Despite the name, a commit isn't considered to be particularly binding until it's been deemed correct, and developers make commits freely.)
 
 Commits will show up in issues that they're linked to:
 
-`![todo: image]()`
+![](images/s2_02.png)
 
 You can see that the commits are listed separately from each other, and come in a particular order. Reading the list of commits and their descriptions allows you to keep up with changes to the code as they're made, and track progress on an issue.
 
@@ -67,7 +67,7 @@ A *pull request* is a group of commits, on a branch, that are intended to be rev
 
 Here's an example of a pull request:
 
-`![todo: image]()`
+![](images/s2_03.png)
 
 Here, the code can be seen and reviewed by everyone. Typically, by this stage, your role in management and providing information is complete; comments will largely come from other developers, suggesting improvements to the code. The developer who submitted the pull request can continue to make commits to the branch the pull request is built on, and GitHub will update to display these changes on the pull request page. Once everyone is happy, one of the developers will *merge* the changes into `master`, and the pull request is closed and archived.
 
