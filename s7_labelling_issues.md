@@ -2,7 +2,7 @@
 
 ---
 
-# Labels
+# 7. Labels
 
 Using labels allow us to be more specific about the issue we've created and create an 'at a glance' overview. An example would be if we are expecting artwork from a creative agency. Seeing as we are expecting it, there is no harm in adding an issue into GitHub while it's all fresh in your mind but in this case we aren't able to supply the actual artwork. 
 
